@@ -1,1 +1,16 @@
-<h1>contact us</h1>
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="heading-txt" style="font-size: 2em; margin-bottom: 3%; text-align: center;">Contact</h1>
+        <div style="margin-top: 5%;display: flex; justify-content: space-evenly; flex-wrap: wrap;">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Contact Information</div>
+            <div class="card-body">
+                <h5 class="card-title">Customer Care</h5>
+                <p class="card-text">Name: Joe Doe </br> Phone: 1-800-333-8383 </br> Email: Joe.Doe@BestCar.com </p>
+            </div>
+        </div>
+        </div>
+    </div>
+{% endblock %}
