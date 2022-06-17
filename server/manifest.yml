@@ -1,11 +1,11 @@
 applications:
   - name: djangoapp
     routes:
-      - route: omaroukil.eu-gb.cf.appdomain.cloud/
+      - route: omaroukil.eu-gb.mybluemix.net/
     memory: 256M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: omaroukil.eu-gb.cf.appdomain.cloud/static
+      - route: omaroukil.eu-gb.mybluemix.net/static
     memory: 256M
     buildpack: staticfile_buildpack

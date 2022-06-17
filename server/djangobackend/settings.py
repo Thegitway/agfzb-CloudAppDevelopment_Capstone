@@ -28,7 +28,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ['omaroukil.eu-gb.cf.appdomain.cloud', 'localhost']
+ALLOWED_HOSTS = ['omaroukil.eu-gb.mybluemix.net', 'localhost']
 
 
 # Application definition
